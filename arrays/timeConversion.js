@@ -10,7 +10,7 @@
 
 // string: the time in  hour format
 
-let s1 = "12:05:45AM";
+let s1 = "07:05:45PM";
 let strAux = s1.substring(0, 2);
     
     if (s1[8] === "P"){
@@ -26,5 +26,5 @@ let strAux = s1.substring(0, 2);
         console.log(strAux + s1.substring(2, 8));
     }
 
-    else
     console.log(s1.substring(0, 8));
+
